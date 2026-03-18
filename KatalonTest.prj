@@ -6,11 +6,12 @@
    <UUID>3c8fa9a2-6b4c-4e73-9cc3-b7879fd93d54</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.2.4</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>10.2.4</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Vivek\POCs\Katalon\KatalonTest\KatalonTest.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
