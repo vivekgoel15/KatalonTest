@@ -18,7 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
 WebUI.setText(findTestObject('Object Repository/LoginPage/input_Swag Labs_user-name'), 'standard_user')
@@ -26,6 +25,10 @@ WebUI.setText(findTestObject('Object Repository/LoginPage/input_Swag Labs_user-n
 WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
 
 WebUI.click(findTestObject('Object Repository/LoginPage/input_Swag Labs_login-button'))
+
+WebUI.verifyElementVisible(findTestObject('HomePage/div_Swag Labs'))
+
+WebUI.verifyElementVisible(findTestObject('HomePage/span_Products'))
 
 WebUI.click(findTestObject('Object Repository/HomePage/button_Open Menu'))
 
